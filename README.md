@@ -1,16 +1,24 @@
-Customer Support Chatbot with Graphs 📊🤖
-This is an AI-powered Customer Support Chatbot built using Flask, GPT-2, and SQL Server. It allows users to query complaint history, track faults, and visualize data using Chart.js. The chatbot intelligently processes natural language queries to fetch complaint details, filter records based on dates, and generate real-time graphs for insights.
+# Customer Support Chatbot with Complaint Analysis
 
-Features:
-✅ Natural Language Processing – Understands user queries using GPT-2
-✅ SQL Server Integration – Retrieves complaint data dynamically
-✅ Graph Generation – Displays complaint trends with Chart.js
-✅ Flask API – Handles chatbot responses and data visualization
-✅ Bootstrap UI – Simple and responsive chat interface
+This project is a **Flask-based AI chatbot** that interacts with users to provide **complaint history, statistics, and graphical analysis** of registered faults. The chatbot integrates **GPT-2 for natural language responses** and connects to a **SQL Server database** to fetch real-time complaint data.
 
-Example Queries:
-🔹 "Show the number of registered faults this year for each month."
-🔹 "How many complaints were registered last week?"
-🔹 "Show the number of registered faults for each year."
+## Features
+- **Chatbot Functionality**: Users can ask about complaint history, status, and counts.
+- **Dynamic Graphs**: Visualizes registered faults per year, month, or custom filters using Chart.js.
+- **SQL Server Integration**: Fetches complaint records efficiently with filters (date range, phone number, status).
+- **Flask API**: Handles chat requests, database queries, and data visualization.
+- **Bootstrap UI**: Clean and responsive chat interface with a complaint graph.
 
-🚀 Future Enhancements: More filters, advanced analytics, and improved NLP understanding!
+## Technologies Used
+- **Python (Flask, PyODBC)**
+- **GPT-2 (Transformers pipeline)**
+- **SQL Server**
+- **Chart.js**
+- **Bootstrap 5**
+- **JavaScript (AJAX for real-time updates)**
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/chatbot-complaint-tracker.git
+   cd chatbot-complaint-tracker
