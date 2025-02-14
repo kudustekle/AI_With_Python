@@ -20,5 +20,5 @@ This project is a **Flask-based AI chatbot** that interacts with users to provid
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chatbot-complaint-tracker.git
+   git clone https://github.com/kudustekle/chatbot-complaint-tracker.git
    cd chatbot-complaint-tracker
