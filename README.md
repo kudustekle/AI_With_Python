@@ -17,8 +17,4 @@ This project is a **Flask-based AI chatbot** that interacts with users to provid
 - **Bootstrap 5**
 - **JavaScript (AJAX for real-time updates)**
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kudustekle/chatbot-complaint-tracker.git
-   cd chatbot-complaint-tracker
+
